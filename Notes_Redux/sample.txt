@@ -1,0 +1,27 @@
+
+multi ple reducers ko combine karne ke liye use hota he
+
+index file is look like this same structure
+
+
+const myReducer = {
+  counter:{
+    count:0
+  },
+  user:{
+    name:"deepti",
+    age:21,
+    state:"odisha",
+    isVerify: [
+      status:true
+    ]
+  },
+  auth:{
+    isUserLogin: true,
+    isNew: false ,
+    data: [
+      uid:"1s34dsdsdd334",
+      userName:"deepti123"
+    ]
+  }
+}
